@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "ArayZou,邹瑞,前端博客"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2012
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -29,10 +29,10 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
   archives: /archives
+  categories: /categories
   tags: /tags
+  about: /about
   #commonweal: /404.html
 
 
@@ -59,9 +59,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -120,8 +120,11 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: http://github.com/arayzou
+  Weibo: http://weibo.com/reallythere
+  instagram: https://www.instagram.com/arayzou
+  Twitter: https://twitter.com/Aray_zou
 
 
 # Social Links Icons
@@ -134,14 +137,15 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
   Weibo: weibo
+  instagram: instagram
+  Twitter: twitter
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /src/img/author.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -201,7 +205,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -241,7 +245,9 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: arayzou
+
+duoshuo_hotartical: false
 
 # Disqus
 #disqus_shortname:
@@ -249,15 +255,15 @@ mathjax:
 # Baidu Share
 # Available value:
 #    button | slide
-#baidushare:
+# baidushare: true
 ##  type: button
 
 # Share
-#jiathis:
+# jiathis: true
 #add_this_id:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -265,7 +271,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-35043536-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -276,9 +282,9 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
+  admin_enable: true
+  user_id: 9097465
+  admin_nickname: 博主
 
 
 # Facebook SDK Support.
@@ -301,9 +307,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: vtpWYr5NVVpI3dpOwyvVi2qd-gzGzoHsz
+  app_key: M8V6JuquVs9iHtAEFgXGHAFF
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
