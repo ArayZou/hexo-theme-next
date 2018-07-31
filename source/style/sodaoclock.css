@@ -1,0 +1,40 @@
+.mmclock{
+    margin-top: 10px;
+    width: 100%;
+    max-width:281px;
+    padding:3px;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+    position: relative;
+    display: block;
+}
+.mmclock .mmclock_sec{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.mmclock .mmclock_sec .seconds_block{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-family: Arial;
+    color: #fff;
+    opacity:0.9;
+}
+.mmclock .mmclock_sec canvas{
+    opacity:0.5;
+    background: rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+.mmclock .mmclock_img{
+    width: 100%;
+    display: block;
+}

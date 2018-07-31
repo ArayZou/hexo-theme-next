@@ -129,5 +129,12 @@
       {% endif %}
 
     </div>
+    {# <div class="mmclock">
+      <a class="mmclock_img_link fancybox" rel="mmclock" href=""><img class="mmclock_img" src=""></a>
+      <div class="mmclock_sec">
+        <canvas id="canvas_seconds" width="50px" height="50px"></canvas>
+        <div class="seconds_block"></div>
+      </div>
+    </div> #}
   </aside>
 {% endmacro %}

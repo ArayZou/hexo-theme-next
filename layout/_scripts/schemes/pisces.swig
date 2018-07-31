@@ -8,3 +8,4 @@
 {% for script in scripts %}
   <script type="text/javascript" src="{{ url_for(theme.js) }}/{{ script }}?v={{ theme.version }}"></script>
 {% endfor %}
+{# <script type="text/javascript" src="/js/aray/sodaoclock.js"></script> #}

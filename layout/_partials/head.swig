@@ -40,6 +40,7 @@
 <link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
 
 <link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
+{# <link href="/style/sodaoclock.css" rel="stylesheet" type="text/css" /> #}
 
 {% if page.keywords %}
   <meta name="keywords" content="{{ page.keywords }}" />
